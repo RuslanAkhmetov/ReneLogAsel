@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ESADout_CU xmlns="urn:customs.ru:Information:CustomsDocuments:ESADout_CU:5.23.0" DocumentModeID="1006107E" xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.22.0" xmlns:catESAD_cu="urn:customs.ru:CUESADCommonAggregateTypesCust:5.22.0" xmlns:cltESAD_cu="urn:customs.ru:CUESADCommonLeafTypes:5.17.0" xmlns:RUDECLcat="urn:customs.ru:RUDeclCommonAggregateTypesCust:5.23.0" xmlns:RUScat_ru="urn:customs.ru:RUSCommonAggregateTypes:5.22.0" xmlns:RUSclt_ru="urn:customs.ru:RUSCommonLeafTypes:5.21.0">
+  <DocumentID xmlns="urn:customs.ru:CommonAggregateTypes:5.22.0">69469B4C-304D-EBD5-377B-772A46796A8A</DocumentID>
+  <EECEDocHeaderAddInfo>
+    <RUScat_ru:EDocCode>R.036</RUScat_ru:EDocCode>
+    <RUScat_ru:EDocDateTime>2024-05-02T22:29:06</RUScat_ru:EDocDateTime>
+    <RUScat_ru:LanguageCode>RU</RUScat_ru:LanguageCode>
+  </EECEDocHeaderAddInfo>
+  <CustomsProcedure>ТТ</CustomsProcedure>
+  <TransitDirectionCode>ИМ</TransitDirectionCode>
+  <RecipientCountryCode>KZ</RecipientCountryCode>
+  <ESADout_CUGoodsShipment>
+    <catESAD_cu:TotalGoodsNumber>1</catESAD_cu:TotalGoodsNumber>
+    <catESAD_cu:TotalPackageNumber>1</catESAD_cu:TotalPackageNumber>
+    <catESAD_cu:TotalCustCost>12158.00</catESAD_cu:TotalCustCost>
+    <catESAD_cu:CustCostCurrencyCode>USD</catESAD_cu:CustCostCurrencyCode>
+    <ESADout_CUConsignor>
+      <cat_ru:OrganizationName>НИКА БИБИЛУРИ</cat_ru:OrganizationName>
+      <RUScat_ru:SubjectAddressDetails>
+        <RUScat_ru:CountryCode>GE</RUScat_ru:CountryCode>
+        <RUScat_ru:CounryName>ГРУЗИЯ</RUScat_ru:CounryName>
+        <RUScat_ru:City>Г. ТБИЛИСИ</RUScat_ru:City>
+        <RUScat_ru:StreetHouse>АМАГЛЕБА,27</RUScat_ru:StreetHouse>
+      </RUScat_ru:SubjectAddressDetails>
+    </ESADout_CUConsignor>
+    <ESADout_CUConsignee>
+      <cat_ru:OrganizationName>ИВАЩЕНКО ЮЛИЯ</cat_ru:OrganizationName>
+      <RUScat_ru:SubjectAddressDetails>
+        <RUScat_ru:CountryCode>KZ</RUScat_ru:CountryCode>
+        <RUScat_ru:CounryName>КАЗАХСТАН</RUScat_ru:CounryName>
+        <RUScat_ru:City>УРАЛЬСК</RUScat_ru:City>
+        <RUScat_ru:StreetHouse>УЛ.ТАЙМАНОВА, 75</RUScat_ru:StreetHouse>
+      </RUScat_ru:SubjectAddressDetails>
+    </ESADout_CUConsignee>
+    <ESADout_CUDeclarant>
+      <cat_ru:OrganizationName>МЕРКУЛОВ АНАТОЛИЙ</cat_ru:OrganizationName>
+      <RUScat_ru:SubjectAddressDetails>
+        <RUScat_ru:CountryCode>KZ</RUScat_ru:CountryCode>
+        <RUScat_ru:CounryName>КАЗАХСТАН</RUScat_ru:CounryName>
+        <RUScat_ru:City>УРАЛЬСК</RUScat_ru:City>
+        <RUScat_ru:StreetHouse>МЕХОВАЯ 44</RUScat_ru:StreetHouse>
+      </RUScat_ru:SubjectAddressDetails>
+    </ESADout_CUDeclarant>
+    <ESADout_CUCarrier>
+      <cat_ru:OrganizationName>МЕРКУЛОВ АНАТОЛИЙ</cat_ru:OrganizationName>
+      <RUScat_ru:SubjectAddressDetails>
+        <RUScat_ru:CountryCode>KZ</RUScat_ru:CountryCode>
+        <RUScat_ru:CounryName>КАЗАХСТАН</RUScat_ru:CounryName>
+        <RUScat_ru:City>УРАЛЬСК</RUScat_ru:City>
+        <RUScat_ru:StreetHouse>МЕХОВАЯ 44</RUScat_ru:StreetHouse>
+      </RUScat_ru:SubjectAddressDetails>
+      <ESADout_CUDriverInformation>
+        <cat_ru:PersonSurname>МЕРКУЛОВ</cat_ru:PersonSurname>
+        <cat_ru:PersonName>АНАТОЛИЙ</cat_ru:PersonName>
+        <RUScat_ru:IdentityCard>
+          <RUScat_ru:IdentityCardCode>10</RUScat_ru:IdentityCardCode>
+          <RUScat_ru:IdentityCardName>Паспорт иностранного гражданина</RUScat_ru:IdentityCardName>
+          <RUScat_ru:IdentityCardNumber>13739516</RUScat_ru:IdentityCardNumber>
+          <RUScat_ru:IdentityCardDate>2021-11-30</RUScat_ru:IdentityCardDate>
+        </RUScat_ru:IdentityCard>
+      </ESADout_CUDriverInformation>
+    </ESADout_CUCarrier>
+    <ESADout_CUConsigment>
+      <catESAD_cu:ContainerIndicator>false</catESAD_cu:ContainerIndicator>
+      <catESAD_cu:DispatchCountryCode>GE</catESAD_cu:DispatchCountryCode>
+      <catESAD_cu:DispatchCountryName>ГРУЗИЯ</catESAD_cu:DispatchCountryName>
+      <catESAD_cu:DestinationCountryCode>KZ</catESAD_cu:DestinationCountryCode>
+      <catESAD_cu:DestinationCountryName>КАЗАХСТАН</catESAD_cu:DestinationCountryName>
+      <ESADout_CUDepartureArrivalTransport>
+        <cat_ru:TransportModeCode>90</cat_ru:TransportModeCode>
+        <cat_ru:TransportNationalityCode>GE</cat_ru:TransportNationalityCode>
+        <TransportMeansQuantity>1</TransportMeansQuantity>
+        <RUTransportMeans>
+          <cat_ru:VIN>5NPEJ4J24MH132701</cat_ru:VIN>
+          <cat_ru:TransportIdentifier>0175AF</cat_ru:TransportIdentifier>
+          <cat_ru:TransportMeansNationalityCode>GE</cat_ru:TransportMeansNationalityCode>
+        </RUTransportMeans>
+      </ESADout_CUDepartureArrivalTransport>
+      <DateExpectedArrival>2024-05-09</DateExpectedArrival>
+      <TimeExpectedArrival>10:00:00</TimeExpectedArrival>
+      <PPBorderCustoms>
+        <cat_ru:Code>10803040</cat_ru:Code>
+        <cat_ru:OfficeName>т/п МАПП Верхний Ларс</cat_ru:OfficeName>
+        <cat_ru:CustomsCountryCode>643</cat_ru:CustomsCountryCode>
+      </PPBorderCustoms>
+      <TDDeliveryPlace>
+        <DeliveryCustomsOffice>
+          <cat_ru:Code>39851712</cat_ru:Code>
+          <cat_ru:OfficeName>Т/П "ОРАЛ-ЦЕНТР ТАМОЖЕННОГО ОФОРМЛЕНИЯ"</cat_ru:OfficeName>
+          <cat_ru:CustomsCountryCode>398</cat_ru:CustomsCountryCode>
+        </DeliveryCustomsOffice>
+      </TDDeliveryPlace>
+    </ESADout_CUConsigment>
+    <ESADout_CUMainContractTerms>
+      <catESAD_cu:ContractCurrencyCode>USD</catESAD_cu:ContractCurrencyCode>
+      <catESAD_cu:ContractCurrencyRate>91.7791</catESAD_cu:ContractCurrencyRate>
+      <catESAD_cu:TotalInvoiceAmount>12158.00</catESAD_cu:TotalInvoiceAmount>
+    </ESADout_CUMainContractTerms>
+    <ESADout_CUGoods>
+      <catESAD_cu:GoodsNumeric>1</catESAD_cu:GoodsNumeric>
+      <catESAD_cu:GoodsDescription>АВТОМОБИЛЬ БУ: HYUNDAI SONATA 2021г. 1598CM3 VIN 5NPEJ4J24MH132701 180HP 0175 AF</catESAD_cu:GoodsDescription>
+      <catESAD_cu:GrossWeightQuantity>1435.000000</catESAD_cu:GrossWeightQuantity>
+      <catESAD_cu:InvoicedCost>12158.00</catESAD_cu:InvoicedCost>
+      <catESAD_cu:GoodsTNVEDCode>8703239089</catESAD_cu:GoodsTNVEDCode>
+      <catESAD_cu:AdditionalSheetCount>1</catESAD_cu:AdditionalSheetCount>
+      <CurrencyCode>USD</CurrencyCode>
+      <ESADout_CUPresentedDocument>
+        <cat_ru:PrDocumentNumber>2829975</cat_ru:PrDocumentNumber>
+        <cat_ru:PrDocumentDate>2024-05-02</cat_ru:PrDocumentDate>
+        <catESAD_cu:PresentedDocumentModeCode>02015</catESAD_cu:PresentedDocumentModeCode>
+      </ESADout_CUPresentedDocument>
+      <ESADout_CUPresentedDocument>
+        <cat_ru:PrDocumentNumber>2829975</cat_ru:PrDocumentNumber>
+        <cat_ru:PrDocumentDate>2024-05-02</cat_ru:PrDocumentDate>
+        <catESAD_cu:PresentedDocumentModeCode>02099</catESAD_cu:PresentedDocumentModeCode>
+      </ESADout_CUPresentedDocument>
+      <ESADout_CUPresentedDocument>
+        <cat_ru:PrDocumentNumber>2829975</cat_ru:PrDocumentNumber>
+        <cat_ru:PrDocumentDate>2024-05-02</cat_ru:PrDocumentDate>
+        <catESAD_cu:PresentedDocumentModeCode>04021</catESAD_cu:PresentedDocumentModeCode>
+      </ESADout_CUPresentedDocument>
+      <ESADout_CUPresentedDocument>
+        <cat_ru:PrDocumentNumber>69050/02829975</cat_ru:PrDocumentNumber>
+        <cat_ru:PrDocumentDate>2024-05-02</cat_ru:PrDocumentDate>
+        <catESAD_cu:PresentedDocumentModeCode>09023</catESAD_cu:PresentedDocumentModeCode>
+      </ESADout_CUPresentedDocument>
+      <ESADout_CUPresentedDocument>
+        <cat_ru:PrDocumentNumber>764</cat_ru:PrDocumentNumber>
+        <cat_ru:PrDocumentDate>2024-05-01</cat_ru:PrDocumentDate>
+        <catESAD_cu:PresentedDocumentModeCode>09023</catESAD_cu:PresentedDocumentModeCode>
+      </ESADout_CUPresentedDocument>
+      <ESADout_CUPresentedDocument>
+        <cat_ru:PrDocumentNumber>045211340</cat_ru:PrDocumentNumber>
+        <cat_ru:PrDocumentDate>2018-12-11</cat_ru:PrDocumentDate>
+        <catESAD_cu:PresentedDocumentModeCode>09023</catESAD_cu:PresentedDocumentModeCode>
+      </ESADout_CUPresentedDocument>
+      <ESADout_CUPresentedDocument>
+        <cat_ru:PrDocumentNumber>5318 867592</cat_ru:PrDocumentNumber>
+        <cat_ru:PrDocumentDate>2018-11-20</cat_ru:PrDocumentDate>
+        <catESAD_cu:PresentedDocumentModeCode>09023</catESAD_cu:PresentedDocumentModeCode>
+      </ESADout_CUPresentedDocument>
+      <ESADout_CUPresentedDocument>
+        <cat_ru:PrDocumentNumber>13739516</cat_ru:PrDocumentNumber>
+        <cat_ru:PrDocumentDate>2021-11-30</cat_ru:PrDocumentDate>
+        <catESAD_cu:PresentedDocumentModeCode>09023</catESAD_cu:PresentedDocumentModeCode>
+      </ESADout_CUPresentedDocument>
+      <SupplementaryGoodsQuantity>
+        <cat_ru:GoodsQuantity>1589.000000</cat_ru:GoodsQuantity>
+        <cat_ru:MeasureUnitQualifierName>СМ3</cat_ru:MeasureUnitQualifierName>
+        <cat_ru:MeasureUnitQualifierCode>111</cat_ru:MeasureUnitQualifierCode>
+      </SupplementaryGoodsQuantity>
+      <ESADGoodsPackaging>
+        <catESAD_cu:PakageQuantity>1</catESAD_cu:PakageQuantity>
+        <catESAD_cu:PakageTypeCode>0</catESAD_cu:PakageTypeCode>
+      </ESADGoodsPackaging>
+    </ESADout_CUGoods>
+    <TDGuarantee>
+      <catESAD_cu:MeasureCode>03</catESAD_cu:MeasureCode>
+      <catESAD_cu:DocNumber>10000000/020524/0271622</catESAD_cu:DocNumber>
+      <catESAD_cu:DocDate>2024-05-02</catESAD_cu:DocDate>
+    </TDGuarantee>
+  </ESADout_CUGoodsShipment>
+  <FilledPerson>
+    <RUDECLcat:SigningDetails>
+      <cat_ru:PersonSurname>Ахметов</cat_ru:PersonSurname>
+      <cat_ru:PersonName>Руслан</cat_ru:PersonName>
+      <RUScat_ru:SigningDate>2024-05-02T22:29:07</RUScat_ru:SigningDate>
+    </RUDECLcat:SigningDetails>
+    <RUDECLcat:SignatoryPersonIdentityDetails></RUDECLcat:SignatoryPersonIdentityDetails>
+  </FilledPerson>
+</ESADout_CU>

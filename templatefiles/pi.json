@@ -1,0 +1,187 @@
+{
+    "@xmlns": "urn:customs.ru:Information:CustomsDocuments:ESADout_CU:5.23.0",
+    "@xmlns:cat_ru": "urn:customs.ru:CommonAggregateTypes:5.22.0",
+    "@xmlns:catESAD_cu": "urn:customs.ru:CUESADCommonAggregateTypesCust:5.22.0",
+    "@xmlns:cltESAD_cu": "urn:customs.ru:CUESADCommonLeafTypes:5.17.0",
+    "@xmlns:RUDECLcat": "urn:customs.ru:RUDeclCommonAggregateTypesCust:5.23.0",
+    "@xmlns:RUScat_ru": "urn:customs.ru:RUSCommonAggregateTypes:5.22.0",
+    "@xmlns:RUSclt_ru": "urn:customs.ru:RUSCommonLeafTypes:5.21.0",
+    "@DocumentModeID": "1006107E",
+    "DocumentID": {
+        "@xmlns": "urn:customs.ru:CommonAggregateTypes:5.22.0",
+        "$": "69469B4C-304D-EBD5-377B-772A46796A8A"
+    },
+    "EECEDocHeaderAddInfo": {
+        "RUScat_ru:EDocCode": "R.036",
+        "RUScat_ru:EDocDateTime": "2024-05-02T22:29:06",
+        "RUScat_ru:LanguageCode": "RU"
+    },
+    "CustomsProcedure": "ТТ",
+    "TransitDirectionCode": "ИМ",
+    "RecipientCountryCode": "",
+    "ESADout_CUGoodsShipment": {
+        "catESAD_cu:TotalGoodsNumber": 1,
+        "catESAD_cu:TotalPackageNumber": "1",
+        "catESAD_cu:TotalCustCost": "",
+        "catESAD_cu:CustCostCurrencyCode": "",
+        "ESADout_CUConsignor": {
+            "cat_ru:OrganizationName": "",
+            "RUScat_ru:SubjectAddressDetails": [
+                {
+                    "RUScat_ru:CountryCode": "",
+                    "RUScat_ru:CounryName": "",
+                    "RUScat_ru:City": "",
+                    "RUScat_ru:StreetHouse": ""
+                }
+            ]
+        },
+        "ESADout_CUConsignee": {
+            "cat_ru:OrganizationName": "",
+            "RUScat_ru:SubjectAddressDetails": [
+                {
+                    "RUScat_ru:CountryCode": "",
+                    "RUScat_ru:CounryName": "",
+                    "RUScat_ru:City": "",
+                    "RUScat_ru:StreetHouse": ""
+                }
+            ]
+        },
+        "ESADout_CUDeclarant": {
+            "cat_ru:OrganizationName": "",
+            "RUScat_ru:SubjectAddressDetails": [
+                {
+                    "RUScat_ru:CountryCode": "",
+                    "RUScat_ru:CounryName": "",
+                    "RUScat_ru:City": "",
+                    "RUScat_ru:StreetHouse": ""
+                }
+            ]
+        },
+        "ESADout_CUCarrier": {
+            "cat_ru:OrganizationName": "",
+            "RUScat_ru:SubjectAddressDetails": [
+                {
+                    "RUScat_ru:CountryCode": "",
+                    "RUScat_ru:CounryName": "",
+                    "RUScat_ru:City": "",
+                    "RUScat_ru:StreetHouse": ""
+                }
+            ],
+            "ESADout_CUDriverInformation": [
+                {
+                    "cat_ru:PersonSurname": "",
+                    "cat_ru:PersonName": "",
+                    "RUScat_ru:IdentityCard": {
+                        "RUScat_ru:IdentityCardCode": "10",
+                        "RUScat_ru:IdentityCardName": "Паспорт иностранного гражданина",
+                        "RUScat_ru:IdentityCardNumber": "",
+                        "RUScat_ru:IdentityCardDate": ""
+                    }
+                }
+            ]
+        },
+        "ESADout_CUConsigment": {
+            "catESAD_cu:ContainerIndicator": false,
+            "catESAD_cu:DispatchCountryCode": "",
+            "catESAD_cu:DispatchCountryName": "",
+            "catESAD_cu:DestinationCountryCode": "",
+            "catESAD_cu:DestinationCountryName": "",
+            "ESADout_CUDepartureArrivalTransport": {
+                "cat_ru:TransportModeCode": "90",
+                "cat_ru:TransportNationalityCode": "",
+                "TransportMeansQuantity": 1,
+                "RUTransportMeans": [
+                    {
+                        "cat_ru:VIN": "",
+                        "cat_ru:TransportIdentifier": "",
+                        "cat_ru:TransportMeansNationalityCode": ""
+                    }
+                ]
+            },
+            "DateExpectedArrival": "2024-05-09",
+            "TimeExpectedArrival": "10:00:00",
+            "PPBorderCustoms": {
+                "cat_ru:Code": "10803040",
+                "cat_ru:OfficeName": "т/п МАПП Верхний Ларс",
+                "cat_ru:CustomsCountryCode": "643"
+            },
+            "TDDeliveryPlace": {
+                "DeliveryCustomsOffice": {
+                    "cat_ru:Code": "39851712",
+                    "cat_ru:OfficeName": "Т/П \"АКТОБЕ-ЦЕНТР ТАМОЖЕННОГО ОФОРМЛЕНИЯ\"",
+                    "cat_ru:CustomsCountryCode": ""
+                }
+            }
+        },
+        "ESADout_CUMainContractTerms": {
+            "catESAD_cu:ContractCurrencyCode": "",
+            "catESAD_cu:ContractCurrencyRate": "91.1225",
+            "catESAD_cu:TotalInvoiceAmount": ""
+        },
+        "ESADout_CUGoods": [
+            {
+                "catESAD_cu:GoodsNumeric": 1,
+                "catESAD_cu:GoodsDescription": [
+                    ""
+                ],
+                "catESAD_cu:GrossWeightQuantity": "",
+                "catESAD_cu:InvoicedCost": "",
+                "catESAD_cu:GoodsTNVEDCode": "",
+                "catESAD_cu:AdditionalSheetCount": "1",
+                "CurrencyCode": "",
+                "ESADout_CUPresentedDocument": [
+                    
+                    
+
+
+                    {
+                        "cat_ru:PrDocumentNumber": "764",
+                        "cat_ru:PrDocumentDate": "2024-05-01",
+                        "catESAD_cu:PresentedDocumentModeCode": "09023"
+                    },
+                    {
+                        "cat_ru:PrDocumentNumber": "045211340",
+                        "cat_ru:PrDocumentDate": "2018-12-11",
+                        "catESAD_cu:PresentedDocumentModeCode": "09023"
+                    },
+                    {
+                        "cat_ru:PrDocumentNumber": "5318 867592",
+                        "cat_ru:PrDocumentDate": "2018-11-20",
+                        "catESAD_cu:PresentedDocumentModeCode": "09023"
+                    },
+                    {
+                        "cat_ru:PrDocumentNumber": "13739516",
+                        "cat_ru:PrDocumentDate": "2021-11-30",
+                        "catESAD_cu:PresentedDocumentModeCode": "09023"
+                    }
+                ],
+                "SupplementaryGoodsQuantity": {
+                    "cat_ru:GoodsQuantity": "",
+                    "cat_ru:MeasureUnitQualifierName": "СМ3",
+                    "cat_ru:MeasureUnitQualifierCode": "111"
+                },
+                "ESADGoodsPackaging": {
+                    "catESAD_cu:PakageQuantity": "1",
+                    "catESAD_cu:PakageTypeCode": "0"
+                }
+            }
+        ],
+		
+		"TDGuarantee": [
+            {
+                "catESAD_cu:MeasureCode": "03",
+                "catESAD_cu:DocNumber": "00000000/020524/0000000",
+                "catESAD_cu:DocDate": "2024-05-02"
+            }
+        ]
+
+    },
+    "FilledPerson": {
+        "RUDECLcat:SigningDetails": {
+            "cat_ru:PersonSurname": "Ахметов",
+            "cat_ru:PersonName": "Руслан",
+            "RUScat_ru:SigningDate": "2024-05-02T22:29:07"
+        },
+        "RUDECLcat:SignatoryPersonIdentityDetails": null
+    }
+}

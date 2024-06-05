@@ -1,0 +1,11 @@
+<ESADout_CU xmlns="urn:customs.ru:Information:CustomsDocuments:ESADout_CU:5.23.0" DocumentModeID="1006107E"
+            xmlns:cat_ru="urn:customs.ru:CommonAggregateTypes:5.22.0"
+            xmlns:catESAD_cu="urn:customs.ru:CUESADCommonAggregateTypesCust:5.22.0"
+            xmlns:cltESAD_cu="urn:customs.ru:CUESADCommonLeafTypes:5.17.0"
+            xmlns:RUDECLcat="urn:customs.ru:RUDeclCommonAggregateTypesCust:5.23.0"
+            xmlns:RUScat_ru="urn:customs.ru:RUSCommonAggregateTypes:5.22.0"
+            xmlns:RUSclt_ru="urn:customs.ru:RUSCommonLeafTypes:5.21.0">
+<DocumentID xmlns="urn:customs.ru:CommonAggregateTypes:5.22.0">69469B4C-304D-EBD5-377B-772A46796A8A</DocumentID>
+
+
+</ESADout_CU>
