@@ -8,6 +8,7 @@ sys.path.insert(2, '../database')
 from database import MarkCode
 from database import Customs_code
 from excel import parse_xml_to_Excel as Excel_parser
+import constants
 import re
 
 def make_td_from_pi(input_file,  car_characteristics = None, car_cost=None, car_cost_currency_code=None):
@@ -148,13 +149,13 @@ def make_td_from_pi(input_file,  car_characteristics = None, car_cost=None, car_
     tree.write(out_file)
 
 if __name__ == '__main__':
-    path= r'C:\Users\1\PythonApp\ReneLogAsel\test'
-    file = sys.argv[1]
+    #path= path = constants.parent_path + '\\' + sys.argv[1]
+    file = constants.parent_path + '\\' + sys.argv[1] + '\\' + sys.argv[1] + '.xml' 
     #pat = sys.argv[2]
-    car_character = {'PLANT':'HYUNDAI','MODEL':'SONATA', 'PRODUCTION_YEAR' : '2018', 'ENGINE_VALUE':'2500', 'VIN' :'4T1BF1FK6GU265476'}
-    cost = '5000'
-    cost_cur_code = 'USD'
-    make_td_from_pi(file, car_characteristics=None, car_cost= None, car_cost_currency_code= None)   
+    #car_character = {'PLANT':'HYUNDAI','MODEL':'SONATA', 'PRODUCTION_YEAR' : '2018', 'ENGINE_VALUE':'2500', 'VIN' :'4T1BF1FK6GU265476'}
+    #cost = '5000'
+    #cost_cur_code = 'USD'
+    make_td_from_pi(file, car_characteristics = None, car_cost= None, car_cost_currency_code= None)
 
 
 

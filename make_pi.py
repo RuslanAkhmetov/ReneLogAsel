@@ -144,7 +144,7 @@ def make_pi(content, path):
     for key, value in ns.items():
         ET.register_namespace(key, value)
     tree = ET.ElementTree(xml_element)
-    pi_file = path + '/pi_test.xml'
+    pi_file = path + '\\' + content['cmr']['CAR']['REG_NOMER'] + '.xml'
     tree.write(pi_file, encoding='utf-8',xml_declaration=True)
 
     #make_td_from_pi(pi_file, content['cmr']['CAR'], content['invoice']['InvoicedCost'], content['invoice']['ContractCurrencyCode'], path) #не работает

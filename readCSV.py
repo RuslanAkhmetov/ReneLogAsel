@@ -2,8 +2,6 @@ import sys
 sys.path.insert(1, "..")
 sys.path.insert(2, '../PDF_Text_Extraction')
 
-from PDF_Text_Extraction import pdf_xtractor #.extract_pdf_file
-#from ..PDF_Text_Extraction import save_result_to_csv
 import os
 from utils import utils 
 import json_parser
@@ -37,7 +35,7 @@ def readCSVFiles(path):
 
 if __name__ == '__main__':
     #path='C:\Users\1\PythonApp\ReneLogAsel\test'
-    path = sys.argv[1]
+    path = constants.parent_path + '\\' + sys.argv[1]
     readCSVFiles(path)
 
 

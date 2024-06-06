@@ -1,7 +1,9 @@
+parent_path = r'C:\Renelog\Asel'
+
 matcher_dictionary_asel_invoice = {
 'InvoicedCost'                 :  r';Итого;.+;.+;(\d{1,2}\s?\d{3})',                              #for using in invoice
 'ContractCurrencyCode'         :  r';Стоимость в ([A-Z]{3});',                                             #for using in invoice
-'ConsignorName'                :  r'\n;([A-ZА-ЯЁ]+\s+[A-ZА-ЯЁ]+)\s+[0-9A-ZА-ЯЁ\/\s]+\s+[0-9А-Я\s\.\,]+;',     #+ГРУЗИЯ
+'ConsignorName'                :  r'\n;([A-ZА-ЯЁ]+\s+[A-ZА-ЯЁ]+\s?[A-ZА-ЯЁA-Z]*)\s+[0-9A-ZА-ЯЁ\/\s]+\s+[0-9А-Я\s\.\,]+;',     #+ГРУЗИЯ
 'ConsignorCountry'             :  r'\n;[А-ЯA-Z\s\,0-9/\.]+(ГРУЗИЯ);',
 'ConsignorCity'                :  r'\n;[А-ЯA-Z\s,\.0-9\/]+\s([А-Я]+)\,?\s[А-Я]+\s?;',
 'ConsignorStreetHouse'         :  r'\n;[А-ЯA-Z\s,0-9\/]+\s\n?([А-Я\.\,\s0-9]+)\s[А-Я]+\,?\s[А-Я]+\s?;',
@@ -25,12 +27,12 @@ matcher_dictionary_asel_invoice = {
 
 
 matcher_dictionary_asel_CMR = {
-'ConsignorName'                :  r'\n;([А-ЯA-Z]+\s+[А-ЯA-Z]+);',
+'ConsignorName'                :  r'\n;([A-ZА-ЯЁ]+\s+[A-ZА-ЯЁ]+\s?[A-ZА-ЯЁA-Z]*);',
 'ConsignorID'                  :  r'',
 'ConsignorCountry'             :  r'',
 'ConsignorCity'                :  r'',
 'ConsignorStreetHouse'         :  r'',
-'ConsigneeName'                :  r'\n;([А-Я]+\s+[А-Я]+[\sА-Я]*);',
+'ConsigneeName'                :  r'\n;([А-ЯA-Z]+\s+[А-ЯA-Z]+[\sА-ЯA-Z]*);',
 'ConsigneeCountry'             :  r'[\,\s]+([А-Я]+);',
 'ConsigneeCity'                :  r';+\n;([А-ЯCЁ\s\.]+)\,?\s',                           #r';+\n;([А-Я\s\.]+)\,?\s',
 'ConsigneePhone'               :  r'\n;(\+?\d{11,13});',

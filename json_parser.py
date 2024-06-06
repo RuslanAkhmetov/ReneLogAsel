@@ -185,6 +185,7 @@ def match_CMR(dict, cmr_text):
 def car_description_parser(dict, car_desc) -> tuple:
         car_characters={}
         if utils.check_string(dict['PLANT'], car_desc):
+            # ИСПРАВИТЬ
             car_characters['PLANT'] = re.search(dict['PLANT'], car_desc)[1]
             pattern = car_characters['PLANT'] + r'\s+' +dict['MODEL']
             if utils.check_string(pattern, car_desc):
